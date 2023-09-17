@@ -7,6 +7,8 @@ import { Document } from 'mongoose';
 export type AttractionDocument = Attraction & Document;
 
 @Schema()
+
+// Attraction
 export class Attraction {
     @Prop()
     id: number;
